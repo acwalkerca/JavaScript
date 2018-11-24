@@ -17,7 +17,7 @@ function buildTable(data) {
 };
 
 table.attr("class", "table table-bordered");
-
+buildTable(data);
 
 var filter = d3.select(".btn-default");
 
